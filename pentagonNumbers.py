@@ -5,7 +5,7 @@ def gotIntSolution(value):
 	return x1 == int(x1)
 
 
-pentagonNumbers = [i * (3 * i - 1) // 2 for i in range(1, 1000001)]
+pentagonNumbers = [i * (3 * i - 1) // 2 for i in range(1, 10001)]
 found = False
 for diff in pentagonNumbers:
 	if found:
